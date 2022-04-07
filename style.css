@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(238, 157, 157);
+    background-color: #ee9d9d;
 }
 ul {
     display: flex;
@@ -36,10 +36,16 @@ li a:hover::after {
     width: 100%;
 }
 .logo {
-    font-size: 24px;
+    font-size: 22px;
     color: white;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
-
+.logo img {
+    width: 50px;
+    height: 50px;
+}
 main {
     display: flex;
     height:calc(100vh - 100px); 
@@ -70,7 +76,7 @@ main p{
     padding: 15px 30px;
     background-color:#000;
     color:#fff;
-    font-size: 14px;;
+    font-size: 14px;
     text-decoration: none;
     outline: none;
     border:none;
