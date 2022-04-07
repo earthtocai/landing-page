@@ -68,7 +68,7 @@ main p{
 }
 .button {
     padding: 15px 30px;
-    background-color: #000;
+    background-color:#000;
     color:#fff;
     font-size: 14px;;
     text-decoration: none;
@@ -151,7 +151,7 @@ main p{
     align-items: center;
     margin: 100px;
     gap: 100px;
-    background-color:rgba(238, 157, 157, 40%);
+    background-color:rgba(238, 157, 157, 75%);
     padding: 30px 0;
     border-radius: 30px;
 }
