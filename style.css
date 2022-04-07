@@ -153,10 +153,10 @@ main p{
 }
 .cta {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 100px;
-    gap: 100px;
+    gap: 250px;
     background-color:rgba(238, 157, 157, 75%);
     padding: 30px 0;
     border-radius: 30px;
