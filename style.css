@@ -45,7 +45,7 @@ main {
     height:calc(100vh - 100px); 
     align-items: center;
     justify-content: center;
-    background-color: rgb(238, 157, 157);
+    background-color: rgba(238, 157, 157, 75%);
     gap: 120px;
 }
 .hero-img{
@@ -90,7 +90,6 @@ main p{
     color:#000;
     margin-bottom: 100px;
     font-weight: 300;
-    background-color: #fee498;
 }
 .project-content {
     display: flex;
@@ -124,4 +123,25 @@ main p{
 }
 .project-content a:hover {
     color: #fee498;
+}
+.quote {
+    height: 300px;
+    background-color:rgba(254, 229, 154, 30%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote q {
+    font-size: 32px;
+    font-style:italic;
+    max-width: 800px;
+    font-weight: 300;
+} 
+.quote p {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+    margin-left: 400px;
 }
